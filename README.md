@@ -9,7 +9,6 @@ This prototype is created to function on the Python console with the plan to be 
 - v1.0 - First Release --- ***Work in Progress***
 
 ## Setup
----
 ### Requirements
 The virtual agent runs on Mac OS X, Windows, or Linux.
 
@@ -41,7 +40,6 @@ OPENAI_API_KEY=<API-secret-key>
 
 
 ## Getting Started
----
 ### Prototype version - Console Interface
 Since this is a prototype version, the only UI is from the console. You can start the program by running the ***`main.py`*** file.
 
@@ -60,7 +58,6 @@ Currently, there are 4 conversation options:
 ***Note:***  *Scenarios 1 and 2 will prompt the user to input a Medicare number, date of birth, and either a prescription id or an order id. The data it checks from are all stored under* `/data/mock/*.csv` *The plan is to eventually integrate with a database for storing and retrieving data.*
 
 ## TODO
----
 ### User Interface
 Console applications are not client-facing and are mainly used for prototyping and development. To fully complete the first release (v1.0), a user interface needs to be created.
 
